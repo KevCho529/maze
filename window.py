@@ -1,11 +1,6 @@
 from tkinter import Tk, BOTH, Canvas
 
 
-def main():
-    win = Window(800, 600)
-    win.wait_for_close()
-
-
 class Window:
     def __init__(self, width, height):
         self.__root = Tk()
